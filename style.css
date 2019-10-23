@@ -1,0 +1,75 @@
+
+.top{
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    flex-basis: 50%;
+}
+
+a{
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    flex-grow: 1;
+}
+
+.mainContent{
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+}
+
+.article{
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    flex-grow: 3;
+}
+
+.sidebar{
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    flex-grow: 1;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    height: 100vh;
+}
+
+.footer{
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+}
+
+.footNav{
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    align-self: center;
+}
